@@ -18,7 +18,7 @@ The Victor 70C and some other DMMs with serial output use the FS9922-DMM4 integr
 The documentation for the data protocol and structure can be found here (PDF):
 [FS9922-DMM4 Datasheet](https://www.ic-fortune.com/upload/Download/FS9922-DMM4-DS-13_EN.pdf)
 
-The 'parse_victor70c.py' script takes in a line read from the Victor 70C and returns a dictionary with the sign values and units. I suspect that more experienced python programmers would just use this parser and create their own script to integrate the results into their workflow.
+The `parse_victor70c.py` script takes in a line read from the Victor 70C and returns a dictionary with the signed values and units. I suspect that more experienced python programmers would just use this parser and create their own script to integrate the results into their workflow.
 
 ## USAGE
 
