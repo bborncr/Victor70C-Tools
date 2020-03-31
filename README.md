@@ -55,12 +55,18 @@ optional arguments:
   --ymax YMAX           Y maximum for plot
 ```
 
-Example
+Examples
 
 The following command connects to COM2, saves data to 'data.csv' and records data continuously (every second):
 
 `python plot_victor70c.py --port COM2 --file=data.csv --continuous`
 
-## Victor 70C Quick Start
+Matplotlib can be used to plot the data in real-time (barely working...)
+
+`python plot_victor70c.py --port COM2 --file=data.csv --plot --continuous --ymin=0 --ymax=250`
+
+![Plot Image](screenshot.png)
+
+## Victor 70C Quick Start Tips
 
 The serial port uses the CP2101 serial to USB converter. Make sure you have the drivers installed and that the device shows up when plugged into the USB port. Turn on the data output be holding down the `REL/RS232` button until it beeps (2 seconds).
