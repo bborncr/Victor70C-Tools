@@ -111,6 +111,7 @@ def Main():
                 data_csv = [dt.datetime.now(), num, units]
                 #print('received data', num)
                 if record_mode_continuous:
+                    print(f'{num} {units}')
                     recordData()
                     if isPlotting:
                         scope.update(num)
