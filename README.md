@@ -37,7 +37,8 @@ I am just starting to learn python. All my tests have been using Python 3. I hav
 * matplotlib
 
 ## Usage
-```
+
+```markdown
 usage: plot_victor70c.py [-h] [-p PORT] [-f FILE] [--continuous] [--plot]
                          [--ymin YMIN] [--ymax YMAX]
 
@@ -59,7 +60,6 @@ Example
 The following command connects to COM2, saves data to 'data.csv' and records data continuously (every second):
 
 `python plot_victor70c.py --port COM2 --file=data.csv --continuous`
-
 
 ## Victor 70C Quick Start
 
