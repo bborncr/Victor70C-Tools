@@ -1,6 +1,6 @@
 # Victor 70C Digital Multimeter python tools
 
-The application included with the Victor 70C Digital Multimeter (DMM) has many issues and it very outdated.
+The application included with the Victor 70C Digital Multimeter (DMM) has many issues and is very outdated.
 I figured that a set of python tools to read from the Victor 70C would be a fun project to learn python.
 
 It would seem logical that someone using a DMM for testing might want to be able to create a simple script to link into a more comprehensive set of test procedures.
