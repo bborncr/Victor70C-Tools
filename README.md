@@ -69,4 +69,4 @@ Matplotlib can be used to plot the data in real-time (barely working...)
 
 ## Victor 70C Quick Start Tips
 
-The serial port uses the CP2101 serial to USB converter. Make sure you have the drivers installed and that the device shows up when plugged into the USB port. Turn on the data output be holding down the `REL/RS232` button until it beeps (2 seconds).
+The serial port uses the CP2101 serial to USB converter. Make sure you have the drivers installed and that the device shows up when plugged into the USB port. Turn on the data output be holding down the `REL/RS232` button until it beeps (2 seconds). The baud rate is 2400.
