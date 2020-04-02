@@ -65,7 +65,7 @@ Matplotlib can be used to plot the data in real-time (barely working...)
 
 `python plot_victor70c.py --port COM2 --file=data.csv --plot --continuous --ymin=0 --ymax=250`
 
-![Plot Image](screenshot.png)
+![Plot Image](./screenshot.png)
 
 ## Victor 70C Quick Start Tips
 
